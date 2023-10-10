@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="awesome/css/all.min.css">
+    <link rel="stylesheet" href="stylecontact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="script.js" async></script>
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <!-- Début header-->
+    <header class="header" data-header>
+        <div class="container2">
+
+            <a href="index.html" class="logo">
+                <img src="img/Altea.png" width="175" height="40" alt="Logo">
+            </a>
+
+            <button data-nav-toggler data-nav-toggle-btn="Toggle menu"><img src="img/burger.png" width="80">
+
+      </button>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.html" class="navbar-link">Accueil</a>
+                    </li>
+
+                    <li>
+                        <a href="nous.html" class="navbar-link">Qui sommes-nous ?</a>
+                    </li>
+                    <li>
+                        <a href="bracelet1.html" class="navbar-link">Bracelet Athéna</a>
+                    </li>
+                    <li>
+                        <a href="bracelet2.html" class="navbar-link">Bracelet Hadès</a>
+                    </li>
+                    <li>
+                        <a href="vetements.html" class="navbar-link">Vêtements</a>
+                    </li>
+                    <li>
+                        <a href="sac.html" class="navbar-link">Sacs</a>
+                    </li>
+                    <li>
+                        <a href="pastilles.html" class="navbar-link">Pastilles</a>
+                    </li>
+
+                    <li>
+                        <a href="help.html" class="navbar-link">Aide</a>
+                    </li>
+
+                    <li>
+                        <a href="compte.html" class="navbar-link">Connexion / Inscription</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+    <!--Fin header-->
+    <div class="grand-container">
+        <div class="container">
+            <div class="titre">
+                <h2>Contactez Nous
+                </h2>
+            </div>
+
+
+            <form class="form" id="form">
+                <div class="form-control ">
+                    <label for="">Nom</label>
+                    <input type="text" class="input" id="input" placeholder="Votre Nom">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small>Message d'erreur</small>
+                </div>
+
+                <div class="form-control ">
+                    <label for="">Prénom</label>
+                    <input class="input" type="text" id="input" placeholder="Votre Prénom">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small>Message d'erreur</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="">Email</label>
+                    <input type="email" class="input" id="input" placeholder="jeandupont@gmail.com">
+                    <i class="@ fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small>Message d'erreur</small>
+                </div>
+
+
+
+                <div class="form-control">
+                    <label for="">Nous écrire</label>
+                    <input type="password" class="input" id="input" placeholder="Décrivez-nous votre problèmes
+                ">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small>Message d'erreur</small>
+                </div>
+
+                <input type="file" …>
+
+                <br>
+                <br>
+
+
+                <button type="submit"> <i class="fas fa-user-plus"></i> Envoyer votre message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Catégories</p>
+                </li>
+
+                <li>
+                    <a class="footer-link" href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="nous.html">Qui sommes-nous ?</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="bracelet1.html">Bracelet Athéna</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="bracelet2.html">Bracelet Hadès</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="sac.html">Sac</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="Pastilles.html">Pastilles</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="help.html">Aide</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="compte.html">Connexion / Inscription</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+            </ul>
+
+            <ul class="social-list">
+
+                <li>
+                    <form id="searchbox" method="get" autocomplete="off">
+                        <h1>S'abonner :</h1>
+                        <input name="q" type="text" size="15" placeholder="Email" />
+                        <input id="button-submit" type="submit" value="" />
+                    </form>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="container">
+
+            <ul class="footer-list">
+            </ul>
+
+            <ul class="footer-list ">
+                <p> Utilisation des Cookies </br> Mentions légales </br> Conditions de vente</p>
+            </ul>
+
+            <ul class="social-list ">
+
+                <li>
+                    <a href="# " class="social-link ">
+                        <ion-icon name="logo-facebook "><img src="img/facebook.png " alt=" "></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="# " class="social-link ">
+                        <ion-icon name="logo-instagram "><img src="img/instagram.png " alt=" "></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="# " class="social-link ">
+                        <ion-icon name="logo-twitter "><img src="img/twitter.png " alt=" "></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="script.js "></script>
+</body>
+
+</html>

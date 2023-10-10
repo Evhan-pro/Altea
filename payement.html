@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de form avec js</title>
+    <link rel="stylesheet" href="awesome/css/all.min.css">
+    <link rel="stylesheet" href="stylepayement.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="grand-container">
+        <div class="container">
+            <div class="header">
+                <h2>Règlement</h2>
+            </div>
+
+
+            <form class="form" id="form">
+
+                <img src="img/image-2.png" alt="moyen de payement">
+
+                <div class="form-control ">
+                    <label for="">Titulaire de la carte</label>
+                    <input type="text" class="input" id="input" placeholder="Votre Nom">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small>Message d'erreur</small>
+                </div>
+
+                <div class="form-control ">
+                    <label for="">Numéro de la carte</label>
+                    <input class="input" type="number" id="input" placeholder="1111 2222 3333 4444">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation"></i>
+                    <small>Message d'erreur</small>
+                </div>
+
+
+
+
+                <div class="expi">
+                    <div class="form-control2">
+                        <label for="">Date d'expiration</label>
+                        <input type="texttotal" class="input" id="input" placeholder="MM/YY">
+                        <i class="@ fa-check-circle"></i>
+                        <i class="fas fa-exclamation"></i>
+                        <small>Message d'erreur</small>
+                    </div>
+                    <div class="form-control3">
+                        <label for="">CVV</label>
+                        <input type="password" class="input" id="input" placeholder="123">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation"></i>
+                        <small>Message d'erreur</small>
+                    </div>
+                </div>
+
+
+
+                <div id="trait_dessus">
+                    <hr>
+                </div>
+
+                <div class="total">
+                    <div class="texttotal">
+                        <p>Sous Total</p>
+                        <p>Livraison</p>
+                        <p>Total(TAX incl.)</p>
+                    </div>
+
+                    <div class="prixtotal">
+                        <p>574€</p>
+                        <p>Offerte</p>
+                        <p>574€</p>
+                    </div>
+                </div>
+
+                <button type="submit"> <i class="fas fa-user-plus"></i> Payer</button>
+            </form>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
